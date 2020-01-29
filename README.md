@@ -24,7 +24,10 @@ $ make
 $ cd exec
 $ java -jar nefit-1.0.jar
 $ make run-frontend
+$ java -jar exec/Broker-1.0.jar 6001 6002
 $ java -jar exec/Negotiator-1.0.jar 4001
+$ java -jar exec/Negotiator-1.0.jar 4002
+$ java -jar exec/Negotiator-1.0.jar 4003
 $ java -jar exec/Client-1.0.jar
 ```
  
